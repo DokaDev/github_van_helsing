@@ -12,15 +12,6 @@
 
 All instructions can be found at [draculatheme.com/github](https://draculatheme.com/github).
 
-## Team
-
-This theme is maintained by the following person(s) and a bunch of
-[awesome contributors](https://github.com/dracula/github/graphs/contributors).
-
-| [![asportnoy](https://github.com/asportnoy.png?size=100)](https://github.com/asportnoy) | [![GlowingUmbreon](https://github.com/GlowingUmbreon.png?size=100)](https://GlowingUmbreon.com/asportnoy) |
-| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| [asportnoy](https://github.com/asportnoy)                                               | [GlowingUmbreon](https://github.com/GlowingUmbreon)                                                       |
-
 ## Community
 
 - [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
