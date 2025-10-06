@@ -2,7 +2,11 @@
 
 > A dark theme for [Github](https://github.com).
 
-![Screenshot](./screenshot.png)
+<img width="1900" height="1155" alt="image" src="https://github.com/user-attachments/assets/83d9db38-d477-4d9d-ab1d-6f1cf1151cc7" />
+
+
+<img width="942" height="263" alt="image" src="https://github.com/user-attachments/assets/a538846f-0f19-4ff5-b21a-2e411dd44b23" />
+
 
 ## Install
 
