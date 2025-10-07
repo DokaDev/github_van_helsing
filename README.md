@@ -9,6 +9,8 @@
 
 
 ## Install
+### Requires
+https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
 
 https://github.com/DokaDev/github_van_helsing/raw/refs/heads/master/style.user.css
 
