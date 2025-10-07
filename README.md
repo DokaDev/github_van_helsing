@@ -10,7 +10,7 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/github](https://draculatheme.com/github).
+https://github.com/DokaDev/github_van_helsing/raw/refs/heads/master/style.user.css
 
 ## Community
 
