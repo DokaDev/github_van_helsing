@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name Github Dracula
-@namespace https://github.com/dracula-pro
-@version 1.1.9
+@name Github Dracula Pro(Van Helsing) - Experimental
+@namespace https://github.com/dokadev/github_van_helsing
+@version 2.0.0
 @description  Pro Theme for GitHub(Van Helsing)
-@author Doka LuHa
+@author DokaDev
 @license MIT
 
 @preprocessor stylus
@@ -781,6 +781,16 @@ background-color: draculaW-blackSecondary
 /*     :where(.prc-Link-Link-85e08):where([data-muted=true]) {
         transition: color .5 ease !important;
     } */
+    
+    /* pr code review line wrapper */
+    .blob-num-hunk, .blob-num-expandable {
+/*         background-color: #7970A9 !important; */
+        background-color: rgba(149, 128, 255, 0.4) !important;
+    }
+    
+    .blob-code-hunk {
+        background-color: rgba(149, 128, 255, 0.2) !important;
+    }
 
     /* Color the topbar */
     .AppHeader {
@@ -792,6 +802,11 @@ background-color: draculaW-blackSecondary
         if purple-logo {
             color: #9580FF !important;
         }
+    }
+    
+    /* Hidden Line Code */
+    .hunk-kebab-icon {
+/*         background-color: #9580FF !important; */
     }
 
     /* Fix Color on SideNav's for consistency */
