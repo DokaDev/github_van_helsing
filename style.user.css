@@ -193,12 +193,7 @@ background-color: draculaW-blackSecondary
         --color-select-menu-tap-focus-bg: #0c2d6b;
         --color-overlay-shadow: 0 0 0 1px #30363d, 0 16px 32px rgba(1, 4, 9, 0.85);
         --color-header-text: rgba(240, 246, 252, 0.7);
-        if (purple-topbar) {
-            --color-header-bg: #383a59;
-        }
-        else {
-            --color-header-bg: #121a20;
-        }
+        --color-header-bg: #121a20;
         --color-header-divider: #8b949e;
         --color-header-logo: #f0f6fc;
         --color-header-search-bg: #323543;
