@@ -324,15 +324,11 @@ background-color: draculaW-blackSecondary
         --color-accent-emphasis: #9580FF;
         --color-accent-muted: rgba(56, 139, 253, 0.4);
         --color-accent-subtle: rgba(56, 139, 253, 0.15);
-        if black-btn-text {
-            --color-fg-on-emphasis: #000000;
-            --color-btn-primary-text: #000000;
-        }
-        else {
-            --color-fg-on-emphasis: #f0f6fc;
-/*             --color-btn-primary-text: #bd93f9; */
-            --color-btn-primary-text: #9580FF;
-        }
+
+        --color-fg-on-emphasis: #f0f6fc;
+/*      --color-btn-primary-text: #bd93f9; */
+        --color-btn-primary-text: #9580FF;
+
         if colored-status {
             --color-success-fg: #3fb950;
             --color-attention-fg: #d29922;
