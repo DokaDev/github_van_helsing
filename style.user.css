@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Github Dracula Pro(Van Helsing) - Experimental
 @namespace https://github.com/dokadev/github_van_helsing
-@version 2.0.1
+@version 2.0.2
 @description  Pro Theme for GitHub(Van Helsing)
 @author DokaDev
 @license MIT
@@ -566,11 +566,15 @@ background-color: draculaW-blackSecondary
         --selection-bgColor: var(--color-accent-muted);
         --diffBlob-hunk-bgColor-num: var(--color-diff-blob-hunk-num-bg);
         --diffBlob-expander-iconColor: var(--color-diff-blob-expander-icon);
+        --diffBlob-additionNum-bgColor: rgba(153, 255, 238, 0.3);
+        --diffBlob-additionLine-bgColor: rgba(153, 255, 238, 0.1);
         --diffBlob-addition-bgColor-line: var(--color-diff-blob-addition-line-bg);
         --diffBlob-addition-fgColor-text: var(--color-diff-blob-addition-fg);
         --diffBlob-addition-bgColor-word: var(--color-diff-blob-addition-word-bg);
         --diffBlob-addition-fgColor-num: var(--color-diff-blob-addition-num-text);
         --diffBlob-addition-bgColor-num: var(--color-diff-blob-addition-num-bg);
+        --diffBlob-deletionNum-bgColor: rgba(255, 153, 204, 0.3);
+        --diffBlob-deletionLine-bgColor: rgba(255, 153, 204, 0.1);
         --diffBlob-deletion-bgColor-line: var(--color-diff-blob-deletion-line-bg);
         --diffBlob-deletion-fgColor-text: var(--color-diff-blob-deletion-fg);
         --diffBlob-deletion-bgColor-word: var(--color-diff-blob-deletion-word-bg);
@@ -782,12 +786,12 @@ background-color: draculaW-blackSecondary
         transition: color .5 ease !important;
     } */
     
-    .blob-num-hunk, .blob-num-expandable {
+    .blob-num-hunk, .blob-num-expandable, .ExpandableHunkHeaderDiffLine-module__expand-button-line--iUeM1, .hunk-kebab-icon {
 /*         background-color: #7970A9 !important; */
         background-color: rgba(149, 128, 255, 0.4) !important;
     }
     
-    .blob-code-hunk {
+    .blob-code-hunk, td.focusable-grid-cell.diff-hunk-cell.left-side {
         background-color: rgba(149, 128, 255, 0.2) !important;
     }
     
