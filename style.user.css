@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Github Dracula Pro(Van Helsing) - Experimental
 @namespace https://github.com/dokadev/github_van_helsing
-@version 2.0.3
+@version 2.0.4
 @description  Pro Theme for GitHub(Van Helsing)
 @author DokaDev
 @license MIT
@@ -555,6 +555,8 @@ background-color: draculaW-blackSecondary
         --bgColor-done-emphasis: var(--color-done-emphasis);
         --bgColor-accent-muted: var(--color-accent-muted);
         --selection-bgColor: var(--color-accent-muted);
+        --diffBlob-hunkNum-bgColor-rest: rgba(149, 128, 255, 0.4);
+        --bgColor-accent-muted: rgba(149, 128, 255, 0.2);
         --diffBlob-hunk-bgColor-num: var(--color-diff-blob-hunk-num-bg);
         --diffBlob-expander-iconColor: var(--color-diff-blob-expander-icon);
         --diffBlob-additionNum-bgColor: rgba(153, 255, 238, 0.3);
@@ -777,14 +779,13 @@ background-color: draculaW-blackSecondary
         transition: color .5 ease !important;
     } */
     
-    .blob-num-hunk, .blob-num-expandable, .ExpandableHunkHeaderDiffLine-module__expand-button-line--iUeM1, .hunk-kebab-icon {
-/*         background-color: #7970A9 !important; */
+/*     .blob-num-hunk, .blob-num-expandable, .ExpandableHunkHeaderDiffLine-module__expand-button-line--iUeM1, .hunk-kebab-icon {
         background-color: rgba(149, 128, 255, 0.4) !important;
     }
     
     .blob-code-hunk, td.focusable-grid-cell.diff-hunk-cell.left-side {
         background-color: rgba(149, 128, 255, 0.2) !important;
-    }
+    } */
     
     /* removed line */
     .blob-num-deletion {
